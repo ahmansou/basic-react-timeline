@@ -5,33 +5,33 @@ import CustomTimeline, { type TimelineItem } from './components/CustomTimeline/C
 const items: TimelineItem[] = [
   {
     title: 'item 1',
-    startTime: dayjs().startOf('week').add(1, 'day'),
-    endTime: dayjs().startOf('week').add(3, 'day')
+    startTime: dayjs('2025-05-19'),
+    endTime: dayjs('2025-05-21')
   },
   {
     title: 'item 2',
-    startTime: dayjs().startOf('week').add(2, 'day'),
-    endTime: dayjs().startOf('week').add(4, 'day')
+    startTime: dayjs('2025-05-20'),
+    endTime: dayjs('2025-05-22')
   },
   {
     title: 'item 6',
-    startTime: dayjs().startOf('week').add(0, 'day'),
-    endTime: dayjs().startOf('week').add(6, 'day')
+    startTime: dayjs('2025-05-18'),
+    endTime: dayjs('2025-05-24')
   },
   {
     title: 'item 5',
-    startTime: dayjs().startOf('week').add(1, 'day'),
-    endTime: dayjs().startOf('week').add(1, 'day')
+    startTime: dayjs('2025-05-19'),
+    endTime: dayjs('2025-05-19')
   },
   {
     title: 'item 3',
-    startTime: dayjs().startOf('week').add(3, 'day'),
-    endTime: dayjs().startOf('week').add(7, 'day')
+    startTime: dayjs('2025-05-21'),
+    endTime: dayjs('2025-05-25')
   },
   {
     title: 'item 4',
-    startTime: dayjs().startOf('week').subtract(2, 'day'),
-    endTime: dayjs().startOf('week').add(8, 'day')
+    startTime: dayjs('2025-05-16'),
+    endTime: dayjs('2025-05-26')
   },
 ]
 
